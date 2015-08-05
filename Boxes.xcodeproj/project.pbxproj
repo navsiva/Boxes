@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92E6E3DF1B7276A30055E906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E6E3DE1B7276A30055E906 /* main.m */; };
+		92E6E3E71B7276AF0055E906 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E6E3E61B7276AF0055E906 /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		92E6E3DB1B7276A30055E906 /* boxes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = boxes; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E6E3DB1B7276A30055E906 /* Boxes.temp_caseinsensitive_rename */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Boxes.temp_caseinsensitive_rename; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E6E3DE1B7276A30055E906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92E6E3E51B7276AF0055E906 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		92E6E3E61B7276AF0055E906 /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		92E6E3D21B7276A30055E906 = {
 			isa = PBXGroup;
 			children = (
-				92E6E3DD1B7276A30055E906 /* boxes */,
+				92E6E3DD1B7276A30055E906 /* Boxes */,
 				92E6E3DC1B7276A30055E906 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +52,28 @@
 		92E6E3DC1B7276A30055E906 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92E6E3DB1B7276A30055E906 /* boxes */,
+				92E6E3DB1B7276A30055E906 /* Boxes.temp_caseinsensitive_rename */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92E6E3DD1B7276A30055E906 /* boxes */ = {
+		92E6E3DD1B7276A30055E906 /* Boxes */ = {
 			isa = PBXGroup;
 			children = (
 				92E6E3DE1B7276A30055E906 /* main.m */,
+				92E6E3E51B7276AF0055E906 /* Box.h */,
+				92E6E3E61B7276AF0055E906 /* Box.m */,
 			);
+			name = Boxes;
 			path = boxes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92E6E3DA1B7276A30055E906 /* boxes */ = {
+		92E6E3DA1B7276A30055E906 /* Boxes.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92E6E3E21B7276A30055E906 /* Build configuration list for PBXNativeTarget "boxes" */;
+			buildConfigurationList = 92E6E3E21B7276A30055E906 /* Build configuration list for PBXNativeTarget "Boxes.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				92E6E3D71B7276A30055E906 /* Sources */,
 				92E6E3D81B7276A30055E906 /* Frameworks */,
@@ -77,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = boxes;
+			name = Boxes.temp_caseinsensitive_rename;
 			productName = boxes;
-			productReference = 92E6E3DB1B7276A30055E906 /* boxes */;
+			productReference = 92E6E3DB1B7276A30055E906 /* Boxes.temp_caseinsensitive_rename */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92E6E3D61B7276A30055E906 /* Build configuration list for PBXProject "boxes" */;
+			buildConfigurationList = 92E6E3D61B7276A30055E906 /* Build configuration list for PBXProject "Boxes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92E6E3DA1B7276A30055E906 /* boxes */,
+				92E6E3DA1B7276A30055E906 /* Boxes.temp_caseinsensitive_rename */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E6E3DF1B7276A30055E906 /* main.m in Sources */,
+				92E6E3E71B7276AF0055E906 /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,21 +212,21 @@
 		92E6E3E31B7276A30055E906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Boxes.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
 		92E6E3E41B7276A30055E906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Boxes.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92E6E3D61B7276A30055E906 /* Build configuration list for PBXProject "boxes" */ = {
+		92E6E3D61B7276A30055E906 /* Build configuration list for PBXProject "Boxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92E6E3E01B7276A30055E906 /* Debug */,
@@ -228,7 +235,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92E6E3E21B7276A30055E906 /* Build configuration list for PBXNativeTarget "boxes" */ = {
+		92E6E3E21B7276A30055E906 /* Build configuration list for PBXNativeTarget "Boxes.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92E6E3E31B7276A30055E906 /* Debug */,

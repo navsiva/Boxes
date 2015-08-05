@@ -10,4 +10,24 @@
 
 @interface Box : NSObject
 
+@property (nonatomic, strong) NSString *name;
+
+
+@property (nonatomic, assign) float width;
+@property (nonatomic, assign) float height;
+@property (nonatomic, assign) float depth;
+
+-(instancetype)initWithHeight:(float)height width:(float)width depth:(float)depth;
+
+-(float)volume;
+
+-(BOOL)biggerThan:(Box *)otherBox;
+
+-(Box *)biggest:(Box *)otherBox;
+
+-(Box *)smallest:(Box *)otherBox;
+
+
+
+
 @end
